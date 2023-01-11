@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.color-primary {
+    color: white;
+}
+.btn-primary {
+    color: blue;
+    font-size: 20px;
+
+}
+/* Style for Banner */
+.container1 {
+    display: flex;
+    z-index: 100;
+}
+.back-image {
+    background-image: url('/images/banner3.png');
+}
+.banner-text {
+    z-index: 105;
+}
+
+/* Style for main area */
+.container2 {
+    display: flex;
+
+}
+.persona-image {
+    height: 80%;
+    width: 70%;
+}
+ul {
+    list-style: none; 
+    list-style-type: '🔔 ';
+  }
+.resolution-revisited {
+
+}
+.container3{
+    display: flex;
+    text-align: center;   
+}
+.container4 {
+    display: flex;
+    text-align: center;
+
+}
+/* for footer */
+.container5 {
+    display: flex;
+    height: 200px;
+    background-color: black;
+    color: azure;
+    text-align: left;
+    
+}
+.make-input {
+   align-items: right;
+   padding: 30px;
+   margin-top: 30px;
+}
+#footer-head, #footer-text{
+    margin: 30px 10px;
+}
